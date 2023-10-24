@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estudiante"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/fondo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/botongeneral"
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:background="@drawable/botongeneral"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="Evaluacion de Proyectos"
+                    android:id="@+id/exam_txt_nombre"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoncal"
+                        android:entries="@array/Grupo"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:spinnerMode="dropdown"
+                        />
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/botoncal"
+                        android:layout_weight="1"
+                        android:entries="@array/Proyectos"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:spinnerMode="dropdown"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="60dp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/botongeneral"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="1-La presentacion es fluida y claramene explicada por el estudiant"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="1.5"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:id="@+id/exam_txt_resp1"
+                            />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/botonvolver"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="30dp"
+                            android:text="Puntos"
+                            android:id="@+id/exam_btn_resp1"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/botongeneral"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="2-Las diapositivas y el cartel carecen faltas de ortografías"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_weight="1.5"
+                                android:textSize="20sp"
+                                android:id="@+id/exam_txt_resp2"
+                                />
+                            <Button
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/botonvolver"
+                                android:textColor="@color/white"
+                                android:text="Puntos"
+                                android:layout_marginStart="60dp"
+                                android:layout_marginEnd="30dp"
+                                android:id="@+id/exam_btn_resp2"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/botongeneral"
+                            android:layout_marginTop="15dp"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginEnd="15dp"
+                                android:text="3-El cartel muestra la estructura del sistema con lenguaje tecnico"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.5"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="20sp"
+                                    android:id="@+id/exam_txt_resp3"
+                                    />
+                                <Button
+                                    android:layout_width="0dp"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+                                    android:layout_marginStart="60dp"
+                                    android:background="@drawable/botonvolver"
+                                    android:textColor="@color/white"
+                                    android:layout_marginEnd="30dp"
+                                    android:text="Puntos"
+                                    android:id="@+id/exam_btn_resp3"
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/botongeneral"
+                                android:layout_marginTop="15dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginEnd="15dp"
+                                    android:text="4-El expositor domina el lenguaje técnico de la Programación Orientada a Objetos"
+                                    />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1.5"
+                                        android:layout_marginStart="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:textSize="20sp"
+                                        android:id="@+id/exam_txt_resp4"
+                                        />
+                                    <Button
+                                        android:layout_width="0dp"
+                                        android:layout_height="30dp"
+                                        android:layout_weight="1"
+                                        android:layout_marginStart="60dp"
+                                        android:background="@drawable/botonvolver"
+                                        android:textColor="@color/white"
+                                        android:layout_marginEnd="30dp"
+                                        android:text="Puntos"
+                                        android:id="@+id/exam_btn_resp4"
+                                        />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginEnd="20dp"
+                                    android:background="@drawable/botongeneral"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginStart="15dp"
+                                        android:layout_marginEnd="15dp"
+                                        android:text="5-Presenta un diagrama clases que da solución a la problemtica planteada"
+                                        />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal">
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1.5"
+                                            android:layout_marginStart="15dp"
+                                            android:layout_marginTop="10dp"
+                                            android:textSize="20sp"
+                                            android:id="@+id/exam_txt_resp5"
+                                            />
+                                        <Button
+                                            android:layout_width="0dp"
+                                            android:layout_height="30dp"
+                                            android:layout_weight="1"
+                                            android:layout_marginStart="60dp"
+                                            android:layout_marginEnd="30dp"
+                                            android:background="@drawable/botonvolver"
+                                            android:textColor="@color/white"
+                                            android:text="Puntos"
+                                            android:id="@+id/exam_btn_resp5"
+                                            />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:background="@drawable/botongeneral"
+                                        android:layout_marginTop="15dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginStart="15dp"
+                                            android:layout_marginEnd="15dp"
+                                            android:text="6-Se presentó la estructura del sistema"
+                                            />
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+                                            <TextView
+                                                android:layout_width="0dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_weight="1.5"
+                                                android:layout_marginTop="10dp"
+                                                android:textSize="20sp"
+                                                android:id="@+id/exam_txt_resp6"
+                                                />
+                                            <Button
+                                                android:layout_width="0dp"
+                                                android:layout_height="30dp"
+                                                android:layout_weight="1"
+                                                android:layout_marginStart="60dp"
+                                                android:layout_marginEnd="30dp"
+                                                android:background="@drawable/botonvolver"
+                                                android:textColor="@color/white"
+                                                android:text="Puntos"
+                                                android:id="@+id/exam_btn_resp6"
+                                                />
+
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="20dp"
+                                            android:layout_marginEnd="20dp"
+                                            android:background="@drawable/botongeneral"
+                                            android:layout_marginTop="15dp"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="15dp"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_marginEnd="15dp"
+                                                android:text="7-Las entradas de datos estan validas" />
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:id="@+id/exam_txt_resp7"
+                                                    android:layout_width="0dp"
+                                                    android:layout_marginStart="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="10dp"
+                                                    android:layout_weight="1.5"
+                                                    android:textSize="20sp" />
+
+                                                <Button
+                                                    android:id="@+id/exam_btn_resp7"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="30dp"
+                                                    android:layout_marginStart="60dp"
+                                                    android:layout_marginEnd="30dp"
+                                                    android:layout_weight="1"
+                                                    android:background="@drawable/botonvolver"
+                                                    android:text="Puntos"
+                                                    android:textColor="@color/white" />
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+</ScrollView>
+

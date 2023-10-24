@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Expo ISIC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Evaluación Expo-ISIC</string>
+    <string name="nav_header_subtitle">ITSOEH</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="port_txt_bienvenida">Sistema de evaluación Expo-ISIC para participantes</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_profesor"></string>
+    <string name="menu_estudiante">Agrega Proyectos</string>
+    <string name="menu_info">Acerca de </string>
+    <string name="menu_examen">Informacion de Proyectos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Grado">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+
+    </string-array>
+
+
+    <string-array name="Grupo">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="intgrantes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Proyectos">
+        <item>Repositorio De Voces</item>
+        <item>Web DICOM Visualizer</item>
+        <item>DOCDDICOM</item>
+        <item>Sistema de Asistencia con RFID</item>
+        <item>Face ID with raspberry pi</item>
+        <item>Smart Bottle Separator</item>
+        <item>Easy Pc</item>
+        <item>Sistema de Gestion de Vuelos</item>
+        <item>Sistema web para el monitoreo de signos Vitales</item>
+    </string-array>
+
+</resources>

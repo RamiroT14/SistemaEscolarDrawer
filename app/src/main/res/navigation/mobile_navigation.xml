@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/casita">
+    <fragment
+        android:id="@+id/casita"
+        android:name="com.itsoeh.rdelangel.sistemaescolardrawer.Casita"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_casita" />
+    <fragment
+        android:id="@+id/estudiante"
+        android:name="com.itsoeh.rdelangel.sistemaescolardrawer.Estudiante"
+        android:label="Agrega Proyecto"
+        tools:layout="@layout/fragment_estudiante" />
+    <fragment
+        android:id="@+id/docentes"
+        android:name="com.itsoeh.rdelangel.sistemaescolardrawer.Docentes"
+        android:label="Docentes"
+        tools:layout="@layout/fragment_docentes" />
+    <fragment
+        android:id="@+id/Info"
+        android:name="com.itsoeh.rdelangel.sistemaescolardrawer.Info"
+        android:label="Info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/examen"
+        android:name="com.itsoeh.rdelangel.sistemaescolardrawer.Examen"
+        android:label="Información de proyecto"
+        tools:layout="@layout/fragment_examen" />
+</navigation>

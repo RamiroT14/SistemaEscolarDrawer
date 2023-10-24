@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Casita"
+    android:background="@mipmap/imagenfondo"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="366dp"
+            android:layout_height="289dp"
+            android:src="@mipmap/logoblanco">
+        </ImageView>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:background="@drawable/circular"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:text="BIENVENIDO A EXPO-ISIC"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Nos alegra que este aqui!!  EXPO-ISIC te sorprenderá con los mejores proyectos realizadds por la comunidad Tecnologica "
+            android:id="@+id/exam_txt_nombre"
+            />
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="-2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:id="@+id/exam_txt_verproyec"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:background="@drawable/botongeneral"
+                android:text="Ver"
+                android:textSize="20sp"
+                android:id="@+id/home_btn_verproyec"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
